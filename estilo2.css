@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(46, 117, 108);
+    color: rgba(0, 0, 0, 0.836);
+    font-family: 'Crete Round', serif;
+}
+
+.hi{
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+}
+h1 strong{
+    color:rgb(203, 214, 203);
+}
+
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.principal{
+    height: 500px;
+    background: white;
+    display: flex;
+}
+.principal-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.header{
+    background: rgb(73, 47, 94);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+}
+.header li{
+    height: inherit;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.menu{
+    
+    text-align: center;
+}
+
+.logo img{
+    width: 100px;
+    padding: 5px;
+}
+
+.principal{
+    background:rgb(46, 117, 108) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px;
+    
+    
+}
+
+.principal img{
+    width: 500px;
+    padding: 90px;
+}
+
+
+.principal-boton{
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(211, 117, 55);
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+    
+    
+}
+.solucion{
+    background: rgb(32, 76, 105);
+    text-align: center;
+    padding: 100px;
+    margin: 0px;
+    font-size: 20px;
+}
+.solucion h2{
+    color: black;
+    
+}
+.solucion p{
+    margin-bottom: 20px;
+    color: white;
+}
+.Contacto{
+    background: rgb(73, 47, 94);
+    text-align: center;
+    padding: 50px 50px 50px 90px;
+    margin: 0px;
+    font-size: 25px;
+}
